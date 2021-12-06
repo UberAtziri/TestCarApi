@@ -27,8 +27,8 @@ namespace TestCar.Business.Services
         public async Task<List<CarDomain>> GetCars(PaginationOptions options)
         {
             var entities = await this.carRepo
-                .GetAll().
-                Take(options.PageSize)
+                .GetAll()
+                .Take(options.PageSize)
                 .ToListAsync();
 
             return entities.ToCarDomains();

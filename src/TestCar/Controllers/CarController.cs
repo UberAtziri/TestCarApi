@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using TestCar.Business.Services.Interfaces;
 using TestCar.Core.Common;
-using TestCar.Core.Exceptions;
 using TestCar.Models.Cars;
 using TestCar.Models.Mappers;
 
